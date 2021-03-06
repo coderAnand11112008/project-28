@@ -28,7 +28,8 @@ function setup() {
 
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
-	stoneObj = new stone(100,100);
+	stoneObj = new stone(650,100);
+	
 	
 	Engine.run(engine);
 
@@ -43,6 +44,10 @@ function draw() {
 
   treeObj.display();
   mango1.display();
+  mango2.display();
+  mango3.display();
+  mango4.display();
+  mango5.display();
   stoneObj.display();
   groundObject.display();
 }
