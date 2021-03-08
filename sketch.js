@@ -1,4 +1,3 @@
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -29,7 +28,7 @@ function setup() {
 	treeObj=new tree(1050,580);
 	groundObject=new ground(width/2,600,width,20);
 	stoneObj = new stone(650,100);
-	
+	stoneObj.scale = 0.5;
 	
 	Engine.run(engine);
 
